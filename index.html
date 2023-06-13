@@ -35,7 +35,6 @@
         background-color: antiquewhite;
     }
 
-
     ul {
         list-style-type: none;
         margin-left: 50;
@@ -115,30 +114,38 @@
 
     .grid-container3 {
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        column-gap: 30px;
-        margin-top: 80px;
-        background-color: #400080;
-        
+        grid-template-columns: auto auto auto auto;
+        column-gap: -50px;
+        margin-top: 50px;
+        row-gap: 20px;
+
     }
 
     .h3 {
         justify-content: center;
     }
 
-    .grid-container4 {
-        display: grid;
-        margin-left: 700px;
-
-    }
-
-    .grid-container5 {
-        margin-left: 100px;
-        padding-bottom: 30px;
-    }
-
     .service {
         margin-right: 500px;
+    }
+
+    .image {
+        margin-left: 50px;
+    }
+
+    .container-fluid {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: large;
+    }
+
+    .grid-container6 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-top: 50px;
     }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -163,7 +170,6 @@
             <p>
             <h2 style="margin-top:50px; margin-left: 200px; color: cadetblue; padding-top: 50px;">Hi,Iam Felix</h2>
             <h1 style="margin-top: 100px; margin-left: 200px; font-size:300%;  color:midnightblue;">Iam a freelance
-                <U>Python</U><br>
                 <p style="margin-left: 100px;">Developer
             </h1>
             </p>
@@ -186,30 +192,124 @@
             Spoken languages : Tamil-English</p>
         <div class="image">
             <i class="fa-brands fa-twitter"
-                style="color: #c0c0c0; border-radius: 50%; background-color:gray; font-size:x-large; color:deepskyblue"><a
+                style="color: #c0c0c0; background-color:white; font-size:x-large; color:deepskyblue"><a
                     href="twitter.asp"></a></i>
             <i class="fa-brands fa-google-plus-g fa-xl"
-                style="color: #c0c0c0; border-radius: 50%; background-color:skyblue; font-size: x-large; color:brown"><a
+                style="color: #c0c0c0; border-radius: 50%; background-color:lightgrey; font-size: x-large; color:brown"><a
                     href="google-plus-g.asp"></a></i>
             <i class="fa-brands fa-linkedin"
-                style="color: #c0c0c0;padding: 10px; border-radius: 50%; background-color: skyblue; font-size: x-large; color:dodgerblue">
+                style="color: #c0c0c0;padding: 10px; border-radius: 50%; font-size: x-large; color:dodgerblue">
                 <a href="fa-brands fa-linkedin"></a></i>
             <i class="fa-brands fa-github"
                 style="color: #808080;padding:10px; border-radius: 50%; box-shadow: inset; font-size: x-large; color: #808080;"></i>
         </div>
 
 
-      
-    </span>
 
-    <div class="service">
-        <h5>Services</h5>
-        <h3>
-            Our Services
-        </h3>
-        <p>We craft digital, graphic and dimensional thinking,to create category leading brand experience that have
-            meaning.</p>
+    </span>
+    <div class="grid-container3">
+        <div class="card" style="width: 10rem; height: 120px; text-align: center;">
+            <div class="card-body" style="text-align: center;"><i class="fa-brands fa-android"
+                    style="color: #80ff00; font-size: xx-large;"></i></div>
+            <h4 class="card-title" style="color:steelblue ;">Android</h4>
+            <p class="card-text">2 Year Experience</p>
+        </div>
+
+
+        <div class="card" style="width: 10rem; height: 120px;text-align: center;">
+            <i class="fa-brands fa-angular" style="color: #800000; font-size: xx-large; padding-top: 8px;"></i>
+            <div class="card-body2" style="text-align: center;"></div>
+            <h4 class="card-title" style="color:royalblue;">Angular</h4>
+            <p class="card-text2">1 Year Experience</p>
+        </div>
+
+        <div class="card" style="width: 10rem; height: 120px; text-align: center;">
+            <i class="fa-brands fa-bootstrap" style="color: #400080; font-size: xx-large;padding-top: 10px;"></i>
+            <div class="card-body3" style="text-align: center;"></div>
+            <h4 class="card-title" style="color:royalblue;">Bootstrap</h4>
+            <p class="card-text4">3 Year Experience</p>
+        </div>
+        <div class="card" style="width: 10rem; height: 120px; text-align: center;">
+            <i class="fa-brands fa-vuejs" style="color: #0080c0; font-size:xx-large ; padding-top: 10px;"></i>
+            <div class="card-body4" style="text-align: center;"></div>
+            <h4 class="card-title" style="color:steelblue;">Vue</h4>
+            <p class="card-text5">2 Year Experience</p>
+
+        </div>
+        <div class="card" style="width: 10rem; height: 120px; text-align: center;">
+            <i class="fa-brands fa-react" style="font-size:xx-large; padding-top: 10px;"></i>
+            <div class="card-body5" style="text-align: center;"></div>
+            <h4 class="card-title" style="color:steelblue;">React</h4>
+            <p class="card-text">1 Year Experience</p>
+        </div>
+
+        <div class="card" style="width: 10rem; height: 110px; text-align: center;">
+            <i class="fa-brands fa-laravel" style="font-size:xx-large;"></i>
+            <div class="card-body6" style="text-align: center;"></div>
+            <h4 class="card-title" style="color: steelblue;">laravel</h4>
+            <p class="card-text">3 Year Experience</p>
+        </div>
+
+
+        <div class="card" style="width: 10rem; height: 110px; text-align: center;">
+            <i class="fa-brands fa-node-js" style="font-size:xx-large; ;"></i>
+            <div class="card-body7" style="text-align:center ;"></div>
+            <h4 class="card-title" style="color: steelblue;">
+                Node-Js</h4>
+            <p class="card-text">2 Year Experience</p>
+        </div>
+        <div class="card" style="width: 10rem; height: 120px; text-align: center;">
+            <i class="fa-solid fa-leaf" style="color: #008080;" style="font-size:xx-large; padding-top: 10px;"></i>
+            <div class="card-body7" style="text-align: center;"></div>
+            <h4 class="card-title" style="color: steelblue;">Mongodb</h4>
+            <p class="card-text">3 Month Experience</p>
+        </div>
     </div>
-</body>
+
+
+    <div class="container-fluid">
+        <div class="row-md12 mt-5">
+            <p class="text-center text-info py-3"><mark>Service</mark></p>
+        </div>
+        <p class="text-center">Our services</p>
+        <p class="para">We craft digital,graphic and dimensional thinking,to create category leading brand experience
+            that have meaning.</p>
+        <div class="grid-container6">
+            <div class="card" style="width: 300px; height: 190px; text-align: center;">
+                <div class="card-body7" style="text-align: center;"></div>
+                <i class="fa-solid fa-info"
+                    style="padding-top:5px ; color: lightpink; border-radius: 10%; width: 30px; background-color:darksalmon;"></i>
+                <h5 style="padding-bottom: 0px; background-color:lightpink; border-radius: 40%;">Awesome Support</h5>
+                <p class="card-text" style="font-size:15px;">some quick example text to build on the card title and make
+                    up the bulk of the card
+                    is content platform.</p>
+            </div>
+            <div class="card" style="width: 300px; height: 190px; text-align: center;">
+                <div class="card-body7" style="text-align: center;"></div>
+                <i class="fa-solid fa-dollar-sign"
+                    style="padding-top:5px; color: lightskyblue; border-radius: 10%; width:30px; background-color: #0080c0;"></i>
+                <h5 style="border-radius:40% ; background-color:lightskyblue; padding-bottom: 10px;">Dynamic Growth</h5>
+                </i>
+                <p class="card-text" style="font-size: 15px;">credibly brand standards complaint users without
+                    extensible services anibh euismod
+                    tincident.</p>
+            </div>
+            <div class="card" style="width: 300px; height: 190px; text-align: center;">
+                <div class="card-body7" style="text-align: center;"></div>
+                <i class="fa-solid fa-check"
+                    style="padding-top:5px ; color: darkcyan; border-radius: 10%;width: 30px; background-color:lightseagreen"></i>
+                <h5 style="border-radius:40% ; background-color:darkcyan; padding-bottom: 10px;">Branding Identity</h5>
+                <p class="card-text" style="font-size: 15px;">Separated they live in bookmarks grove right at the cost
+                    of the semantics and
+                    large.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-md12 mt-5">
+                <p class="text-center text-info"><mark>LIFETIME</mark></p>
+            </div>
+            <p class="text-center">Education & Experience</p>
+
+
 
 </html>
